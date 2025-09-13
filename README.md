@@ -1,0 +1,10 @@
+<h1 align='center'>ULTIMATE JS PROBLEM BANK</h1>
+
+![GitHub last commit](https://img.shields.io/github/last-commit/demondaddy22/ultimate-js-problem-bank?color=%2322577A&style=for-the-badge)
+![GitHub repo stars](https://img.shields.io/github/stars/DemonDaddy22/ultimate-js-problem-bank?color=%2338A3A5&style=for-the-badge)
+![GitHub repo forks](https://img.shields.io/github/forks/DemonDaddy22/ultimate-js-problem-bank?color=%2357CC99&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/demondaddy22/ultimate-js-problem-bank?color=%2380ED99&style=for-the-badge)
+
+A collection of concepts, problems, and interview questions to help you prepare for frontend development roles.
+
+_Covers_: **JavaScript · TypeScript · ReactJS · React Native**
