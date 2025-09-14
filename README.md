@@ -12,3 +12,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native**
 ## JavaScript
 
 - [Implement a curry function](./javascript/curry.js)
+- [Implement a curry function with a placeholder](./javascript/curryWithPlaceholder.js) ⭐
