@@ -14,3 +14,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native**
 - [Implement a curry function](./javascript/curry.js)
 - [Implement a curry function with a placeholder](./javascript/curryWithPlaceholder.js) ⭐
 - [Implement a function which flattens an array upto given depth](./javascript/flattenArray.js)
+- [Implement a debounce function](./javascript/debounce.js)
