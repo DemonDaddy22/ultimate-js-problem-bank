@@ -1,9 +1,10 @@
+import Counter from '@/components/Counter';
 import styles from '@/styles/page.module.css';
 
 const Home = () => {
   return (
-    <main>
-      <h1 className={styles.heading}>Ultimate JS Problem Bank</h1>
+    <main className={styles.main}>
+      <Counter />
     </main>
   );
 };
