@@ -23,3 +23,5 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a first bad version function](./javascript/firstBadVersion.js)
 - [Implement a memo function](./javascript/memo.js)
 - [Implement a queue using stack(s)](./javascript/queueUsingStack.js)
+- [Implement an immutability helper function](./javascript/immutabilityHelper.js) ⭐
+- [Implement a DOM node store](./javascript/nodeStore.js)
