@@ -21,3 +21,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a shuffle function](./javascript/arrayShuffle.js), which should modify the array inline to generate a randomly picked permutation at the same probability
 - [Implement a decode function](./javascript/decode.js)
 - [Implement a first bad version function](./javascript/firstBadVersion.js)
+- [Implement a memo function](./javascript/memo.js)
