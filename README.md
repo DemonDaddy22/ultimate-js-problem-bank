@@ -7,7 +7,7 @@
 
 A collection of concepts, problems, and interview questions to help you prepare for frontend development roles.
 
-_Covers_: **JavaScript · TypeScript · ReactJS · React Native**
+_Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 
 ## JavaScript
 
@@ -19,3 +19,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native**
 - [Implement a pipe function](./javascript/pipe.js), which chains multiple functions together to create a new function
 - [Implement an exclude items function](./javascript/improveAFunction.js), which accepts a list of items and a list of filter properties based upon which we need to remove the corresponding entries from the list of items
 - [Implement a shuffle function](./javascript/arrayShuffle.js), which should modify the array inline to generate a randomly picked permutation at the same probability
+- [Implement a decode function](./javascript/decode.js)
