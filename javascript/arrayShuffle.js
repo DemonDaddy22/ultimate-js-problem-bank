@@ -13,7 +13,6 @@ function shuffle(arr) {
   }
 }
 
-
 function getShuffledElement(arr) {
   // returns an element and splice of remaining array
   const length = arr.length;
@@ -21,4 +20,12 @@ function getShuffledElement(arr) {
   const element = arr[randomIndex];
   arr = arr.slice(0, randomIndex).concat(arr.slice(randomIndex + 1));
   return [arr, element];
+}
+
+// a shorter solution
+function shuffle2(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const j = i + Math.floor(Math.random() * (arr.length - i));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
 }
