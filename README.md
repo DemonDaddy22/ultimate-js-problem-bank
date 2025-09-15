@@ -18,3 +18,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native**
 - [Implement a throttle function](./javascript/throttle.js) ⭐
 - [Implement a pipe function](./javascript/pipe.js), which chains multiple functions together to create a new function
 - [Implement an exclude items function](./javascript/improveAFunction.js), which accepts a list of items and a list of filter properties based upon which we need to remove the corresponding entries from the list of items
+- [Implement a shuffle function](./javascript/arrayShuffle.js), which should modify the array inline to generate a randomly picked permutation at the same probability
