@@ -22,3 +22,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a decode function](./javascript/decode.js)
 - [Implement a first bad version function](./javascript/firstBadVersion.js)
 - [Implement a memo function](./javascript/memo.js)
+- [Implement a queue using stack(s)](./javascript/queueUsingStack.js)
