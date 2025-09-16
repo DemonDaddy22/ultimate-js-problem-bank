@@ -27,6 +27,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a DOM node store](./javascript/nodeStore.js)
 - [Find corresponding node in two identical DOM trees](./javascript/correspondingNode.js) ⭐
 - [Implement an event emitter](./javascript/eventEmitter.js)
+- [Implement a simple DOM wrapper](./javascript/methodChaining.js), to support method chaining like jQuery
 
 ## ReactJS
 
