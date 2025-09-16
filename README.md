@@ -25,6 +25,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a queue using stack(s)](./javascript/queueUsingStack.js)
 - [Implement an immutability helper function](./javascript/immutabilityHelper.js) ⭐
 - [Implement a DOM node store](./javascript/nodeStore.js)
+- [Find corresponding node in two identical DOM trees](./javascript/correspondingNode.js) ⭐
 
 ## ReactJS
 
