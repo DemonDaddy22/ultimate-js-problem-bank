@@ -40,3 +40,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a useTimeout custom hook](./react/src/hooks/useTimeout.ts)
 - [Implement a useIsFirstRender custom hook](./react/src/hooks/useIsFirstRender.ts)
 - [Implement a usePrevious custom hook](./react/src/hooks/usePrevious.ts)
+- [Implement a useHover custom hook](./react/src/hooks/useHover.ts) ⭐
