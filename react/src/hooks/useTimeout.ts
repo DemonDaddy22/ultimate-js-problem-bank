@@ -1,3 +1,7 @@
+/**
+ * Problem link - https://bigfrontend.dev/react/usetimeout
+ */
+
 import { useRef, useEffect } from 'react';
 
 const useTimeout = (callback: () => void, delay: number) => {
