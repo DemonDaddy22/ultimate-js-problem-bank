@@ -39,3 +39,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Create a counter app](./react/src/components/Counter/)
 - [Implement a useTimeout custom hook](./react/src/hooks/useTimeout.ts)
 - [Implement a useIsFirstRender custom hook](./react/src/hooks/useIsFirstRender.ts)
+- [Implement a usePrevious custom hook](./react/src/hooks/usePrevious.ts)
