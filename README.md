@@ -29,6 +29,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement an event emitter](./javascript/eventEmitter.js)
 - [Implement a simple DOM wrapper](./javascript/methodChaining.js), to support method chaining like jQuery
 - [Implement a function to detect type of argument](./javascript/detectType.js)
+- [Implement a debounce function with options](./javascript/debounceWithOptions.js) ⭐
 
 ## ReactJS
 
