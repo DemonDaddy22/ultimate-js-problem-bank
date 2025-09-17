@@ -31,6 +31,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a function to detect type of argument](./javascript/detectType.js)
 - [Implement a debounce function with options](./javascript/debounceWithOptions.js) ⭐
 - [Implement a throttle function with options](./javascript/throttleWithOptions.js) ⭐
+- [Implement a function to reorder array](./javascript/reorderArray.js)
 
 ## ReactJS
 
