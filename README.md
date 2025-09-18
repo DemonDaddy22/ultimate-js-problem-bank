@@ -46,3 +46,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a useDebounce custom hook](./react/src/hooks/useDebounce.ts)
 - [Implement a useMounted custom hook](./react/src/hooks/useIsMounted.ts)
 - [Implement a useArray custom hook](./react/src/hooks/useArray.ts)
+- [Implement a useSWR custom hook](./react/src/hooks/useSWR.ts)
