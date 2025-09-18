@@ -44,3 +44,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a useToggle custom hook](./react/src/hooks/useToggle.ts)
 - [Implement a useEffectOnce custom hook](./react/src/hooks/useEffectOnce.ts)
 - [Implement a useDebounce custom hook](./react/src/hooks/useDebounce.ts)
+- [Implement a useMounted custom hook](./react/src/hooks/useIsMounted.ts)
