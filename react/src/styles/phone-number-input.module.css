@@ -1,0 +1,30 @@
+.inputContainer {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #3F3F3F;
+  border-radius: 0.25rem;
+  padding: 1rem 1.25rem;
+  max-width: 20rem;
+  color: #E0E0E0;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input:hover {
+  border-color: #019C9E;
+}
+
+.input:focus {
+  border-color: #00CED1;
+}

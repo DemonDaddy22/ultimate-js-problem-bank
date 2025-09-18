@@ -1,10 +1,10 @@
-import Counter from '@/components/Counter';
+import PhoneNumberInput from '@/components/PhoneNumberInput';
 import styles from '@/styles/page.module.css';
 
 const Home = () => {
   return (
     <main className={styles.main}>
-      <Counter />
+      <PhoneNumberInput />
     </main>
   );
 };
