@@ -34,6 +34,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a function to reorder array](./javascript/reorderArray.js)
 - [Implement a sum function](./javascript/sum.js) ⭐
 - [Implement a clearAllTimeout function](./javascript/clearAllTimeout.js)
+- [Implement a Promise race function](./javascript/promiseRace.js)
 
 ## ReactJS
 
