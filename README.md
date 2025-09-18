@@ -45,3 +45,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a useEffectOnce custom hook](./react/src/hooks/useEffectOnce.ts)
 - [Implement a useDebounce custom hook](./react/src/hooks/useDebounce.ts)
 - [Implement a useMounted custom hook](./react/src/hooks/useIsMounted.ts)
+- [Implement a useArray custom hook](./react/src/hooks/useArray.ts)
