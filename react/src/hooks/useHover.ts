@@ -2,11 +2,11 @@
  * Problem link - https://bigfrontend.dev/react/useHover
  */
 
-import { Ref, useCallback, useState } from 'react';
+import { Ref, useCallback, useState, useRef } from 'react';
 
 const useHover = <T extends HTMLElement>(): [Ref<T>, boolean] => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
-  const [element, setElement] = useState<T | null>(null);
+  const element = useRef<T | null>(null);
 
   const handleMouseEnter = () => setIsHovered(true);
 
@@ -25,16 +25,16 @@ const useHover = <T extends HTMLElement>(): [Ref<T>, boolean] => {
   const ref = useCallback(
     (node: T) => {
       // if ref.current changes, remove event listeners from the old element
-      if (element) {
-        removeEventListeners(element);
+      if (element.current) {
+        removeEventListeners(element.current);
       }
       // add event listeners to the new element
       if (node) {
         addEventListeners(node);
       }
-      setElement(node);
+      element.current = node;
     },
-    [addEventListeners, element, removeEventListeners]
+    [addEventListeners, removeEventListeners]
   );
 
   return [ref, isHovered];
