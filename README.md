@@ -33,6 +33,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a throttle function with options](./javascript/throttleWithOptions.js) ⭐
 - [Implement a function to reorder array](./javascript/reorderArray.js)
 - [Implement a sum function](./javascript/sum.js) ⭐
+- [Implement a clearAllTimeout function](./javascript/clearAllTimeout.js)
 
 ## ReactJS
 
