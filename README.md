@@ -36,6 +36,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a clearAllTimeout function](./javascript/clearAllTimeout.js)
 - [Implement a Promise race function](./javascript/promiseRace.js)
 - [Implement a Promise all function](./javascript/promiseAll.js)
+- [Implement a Promise any function](./javascript/promiseAny.js)
 
 ## ReactJS
 
