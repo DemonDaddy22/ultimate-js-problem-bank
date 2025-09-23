@@ -55,3 +55,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a useSWR custom hook](./react/src/hooks/useSWR.ts)
 - [Implement a useFocus custom hook](./react/src/hooks/useFocus.ts)
 - [Create a phone number input app](./react/src/components/PhoneNumberInput/) ⭐
+- [Create a counter app with useCounter hook](./react/src/components/CounterWithHook/)

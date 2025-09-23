@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 10rem;
+  margin: 0 auto;
+}
+
+.count {
+  font-size: 8rem;
+  color: #510AC9;
+  letter-spacing: 0.25px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  border-radius: 0.25rem;
+  transition: filter 0.25s;
+}
+
+.buttonIncrement {
+  composes: button;
+  border: 1px solid #5AD33E;
+  color: #5AD33E;
+}
+
+.buttonDecrement {
+  composes: button;
+  border: 1px solid #CE145E;
+  color: #CE145E;
+}
+
+.buttonReset {
+  composes: button;
+  border: 1px solid #0055EE;
+  color: #0055EE;
+}
+
+.button:hover {
+  filter: brightness(0.75);
+}
