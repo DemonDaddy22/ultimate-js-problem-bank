@@ -1,0 +1,46 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border-bottom: 1px solid #F0F0F0;
+  padding-bottom: 1rem;
+}
+
+.question {
+  max-width: 60ch;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  display: block;
+}
+
+.answer {
+  max-width: 70ch;
+  height: auto;
+  opacity: 1;
+  transition: all 0.1s;
+}
+
+.hideAnswer {
+  composes: answer;
+  height: 0;
+  opacity: 0;
+}
+
+.closeIcon {
+  display: inline-flex;
+  float: right;
+  margin-left: 1rem;
+  height: 1rem;
+  transform: rotate(0);
+  transition: transform 0.2s;
+}
+
+.openIcon {
+  composes: closeIcon;
+  transform: rotate(180deg);
+}

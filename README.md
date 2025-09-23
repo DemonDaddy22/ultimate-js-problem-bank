@@ -57,3 +57,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Create a phone number input app](./react/src/components/PhoneNumberInput/) ⭐
 - [Create a counter app with useCounter hook](./react/src/components/CounterWithHook/)
 - [Create a todo app with filters and local storage](./react/src/components/TodoListWithFilter/)
+- [Create an FAQs accordion list](./react/src/components/FAQAccordion/)
