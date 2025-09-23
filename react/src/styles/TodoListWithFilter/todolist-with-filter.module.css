@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 25rem;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
