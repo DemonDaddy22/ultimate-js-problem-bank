@@ -21,12 +21,17 @@ const TodoForm: React.FC<TodoFormProps> = ({ handleSubmit }) => {
   };
 
   return (
-    <section className={styles.form}>
+    <form className={styles.form} onSubmit={handleAddTodo}>
       <input name='todo' type='text' onChange={handleInputChange} value={todoInput} className={styles.input} />
-      <button onClick={handleAddTodo} disabled={!todoInput} className={styles.button}>
+      <button
+        onClick={handleAddTodo}
+        disabled={!todoInput}
+        className={styles.button}
+        aria-label={`Add ${todoInput || 'todo'}`}
+      >
         Add
       </button>
-    </section>
+    </form>
   );
 };
 
