@@ -39,6 +39,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a Promise any function](./javascript/promiseAny.js)
 - [Implement a Promise all settled function](./javascript/promiseAllSettled.js)
 - [Implement your own Promise](./javascript/myPromise.js) ⭐
+- [Implement a promise retry function](./javascript/promiseRetry.js)
 
 ## ReactJS
 
