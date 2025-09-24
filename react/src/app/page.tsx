@@ -1,10 +1,10 @@
-import FAQAccordion from '@/components/FAQAccordion';
+import SearchBox from '@/components/SearchBox';
 import styles from '@/styles/page.module.css';
 
 const Home = () => {
   return (
     <main className={styles.main}>
-      <FAQAccordion />
+      <SearchBox />
     </main>
   );
 };

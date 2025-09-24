@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  outline: none;
+  padding: 1rem 1.25rem;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  width: 20rem;
+  color: #1F1F1F;
+  border: 1px solid #1F1F1F;
+}
+
+.error {
+  color: #303030;
+}
+
+.results {
+  width: 30rem;
+  border: 1px solid #1F1F1F;
+  border-radius: 0.5rem;
+  height: 50vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  padding: 1rem;
+  border-bottom: 1px solid #E0E0E0;
+  color: #1F1F1F;
+}

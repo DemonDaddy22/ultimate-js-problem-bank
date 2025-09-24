@@ -49,7 +49,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Implement a useHover custom hook](./react/src/hooks/useHover.ts) ⭐
 - [Implement a useToggle custom hook](./react/src/hooks/useToggle.ts)
 - [Implement a useEffectOnce custom hook](./react/src/hooks/useEffectOnce.ts)
-- [Implement a useDebounce custom hook](./react/src/hooks/useDebounce.ts)
+- [Implement a useDebounceValue custom hook](./react/src/hooks/useDebounceValue.ts)
 - [Implement a useMounted custom hook](./react/src/hooks/useIsMounted.ts)
 - [Implement a useArray custom hook](./react/src/hooks/useArray.ts)
 - [Implement a useSWR custom hook](./react/src/hooks/useSWR.ts)
@@ -58,3 +58,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Create a counter app with useCounter hook](./react/src/components/CounterWithHook/)
 - [Create a todo app with filters and local storage](./react/src/components/TodoListWithFilter/)
 - [Create an FAQs accordion list](./react/src/components/FAQAccordion/)
+- [Create a product search box with debouncing](./react/src/components/SearchBox/)
