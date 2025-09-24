@@ -59,3 +59,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Create a todo app with filters and local storage](./react/src/components/TodoListWithFilter/)
 - [Create an FAQs accordion list](./react/src/components/FAQAccordion/)
 - [Create a product search box with debouncing](./react/src/components/SearchBox/)
+- [Create a form with validation](./react/src/components/FormValidation/)
