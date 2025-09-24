@@ -1,23 +1,32 @@
-/**
- * Problem link - https://bigfrontend.dev/react/useDebounce
- */
+import { useCallback, useEffect, useRef } from 'react';
 
-import { useRef, useState, useEffect } from 'react';
+type Callback<T> = (...args: T[]) => void;
 
-const useDebounce = <T>(value: T, delay: number): T => {
-  const [debouncedValue, setDebouncedValue] = useState<T>(value);
-  const timeoutRef = useRef<NodeJS.Timeout>(undefined);
+const useDebounce = <T>(callback: Callback<T>, delay: number) => {
+  const timeoutId = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const callbackRef = useRef<Callback<T>>(callback);
+
+  const debouncedFunction = useCallback(
+    (...args: T[]) => {
+      clearTimeout(timeoutId.current);
+      timeoutId.current = setTimeout(() => callbackRef.current(...args), delay);
+    },
+    [delay]
+  );
 
   useEffect(() => {
-    clearTimeout(timeoutRef.current);
-    timeoutRef.current = setTimeout(() => {
-      setDebouncedValue(value);
-    }, delay);
+    callbackRef.current = callback;
+  }, [callback]);
 
-    return () => clearTimeout(timeoutRef.current);
-  }, [value, delay]);
+  useEffect(() => {
+    return () => {
+      if (timeoutId.current) {
+        clearTimeout(timeoutId.current);
+      }
+    };
+  }, []);
 
-  return debouncedValue;
+  return debouncedFunction;
 };
 
 export default useDebounce;
