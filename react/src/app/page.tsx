@@ -1,10 +1,13 @@
-import FormValidation from '@/components/FormValidation';
+import InfiniteScrolling from '@/components/InfiniteScrolling';
+import ReduxProvider from '@/store/ReduxProvider';
 import styles from '@/styles/page.module.css';
 
 const Home = () => {
   return (
     <main className={styles.main}>
-      <FormValidation />
+      <ReduxProvider>
+        <InfiniteScrolling />
+      </ReduxProvider>
     </main>
   );
 };
