@@ -7,7 +7,7 @@
 
 A collection of concepts, problems, and interview questions to help you prepare for frontend development roles.
 
-_Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
+_Covers_: **JavaScript · TypeScript · ReactJS · React Native · HTML · CSS**
 
 ## JavaScript
 
@@ -61,3 +61,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · CSS**
 - [Create an FAQs accordion list](./react/src/components/FAQAccordion/)
 - [Create a product search box with debouncing](./react/src/components/SearchBox/)
 - [Create a form with validation](./react/src/components/FormValidation/)
+
+## Vanilla (HTML, CSS, JavaScript)
+
+- [Create a progress bar](./vanilla/progressBar/);
