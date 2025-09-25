@@ -64,4 +64,5 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · HTML · CSS**
 
 ## Vanilla (HTML, CSS, JavaScript)
 
-- [Create a progress bar](./vanilla/progressBar/);
+- [Create a progress bar](./vanilla/progressBar/)
+- [Create a comment section with support for nested replies](./vanilla/commentSection/)
