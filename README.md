@@ -67,3 +67,4 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · HTML · CSS**
 
 - [Create a progress bar](./vanilla/progressBar/)
 - [Create a comment section with support for nested replies](./vanilla/commentSection/)
+- [Create a memory grid](./vanilla/gridMemory/)
