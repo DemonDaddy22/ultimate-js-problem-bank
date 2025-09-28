@@ -62,6 +62,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · HTML · CSS**
 - [Create a product search box with debouncing](./react/src/components/SearchBox/)
 - [Create a form with validation](./react/src/components/FormValidation/)
 - [Create an infinite scrolling list and redux](./react/src/components/InfiniteScrolling/)
+- [Create a folder structure](./react/src/components/FolderStructure/)
 
 ## Vanilla (HTML, CSS, JavaScript)
 
