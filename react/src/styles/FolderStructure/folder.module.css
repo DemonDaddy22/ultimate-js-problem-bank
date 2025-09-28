@@ -1,0 +1,40 @@
+.folder {
+  font-size: 1.1rem;
+  color: #EFEFEF;
+  font-weight: 600;
+}
+
+.subDirectory {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-left: 1px solid #777;
+}
+
+.title {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.closeIcon {
+  display: inline-flex;
+  float: right;
+  height: 0.75rem;
+  transform: rotate(0);
+  transition: transform 0.2s;
+}
+
+.openIcon {
+  composes: closeIcon;
+  transform: rotate(180deg);
+}
