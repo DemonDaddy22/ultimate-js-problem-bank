@@ -6,7 +6,7 @@
 
 'use client';
 
-import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useRef, useState, useTransition } from 'react';
 import { debounce } from 'lodash';
 import styles from '@/styles/search-box.module.css';
 import SearchResults from './components/Results';
@@ -18,6 +18,8 @@ const SearchBox: React.FC = () => {
   const [data, setData] = useState<Array<unknown>>([]);
   const [error, setError] = useState<Error | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
+
+  const [isLoading, startTransition] = useTransition();
 
   const abortControllerRef = useRef<AbortController | null>(null);
 
@@ -34,7 +36,10 @@ const SearchBox: React.FC = () => {
         signal: abortControllerRef.current.signal,
       });
       const results = await response.json();
-      setData(results.products ?? ([] as Array<Product>));
+      startTransition(() => {
+        // non urgent state update
+        setData(results.products ?? ([] as Array<Product>));
+      });
       setError(null);
     } catch (err) {
       setError(err as Error);
@@ -70,8 +75,8 @@ const SearchBox: React.FC = () => {
   return (
     <form onSubmit={handleSubmit} className={styles.form}>
       <input type='text' name='search-box' value={query} className={styles.input} onChange={handleQueryChange} />
-      {error ? <h3 className={styles.error}>Something went wrong. Please try searching for something else</h3> : null}
-      <SearchResults results={data as Array<Product>} />
+      {error ? <h3 className={styles.info}>Something went wrong. Please try searching for something else</h3> : null}
+      {isLoading ? <h3 className={styles.info}>Loading...</h3> : <SearchResults results={data as Array<Product>} />}
     </form>
   );
 };
