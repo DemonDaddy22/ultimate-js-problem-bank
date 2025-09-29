@@ -61,8 +61,9 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · HTML · CSS**
 - [Create an FAQs accordion list](./react/src/components/FAQAccordion/)
 - [Create a product search box with debouncing](./react/src/components/SearchBox/)
 - [Create a form with validation](./react/src/components/FormValidation/)
-- [Create an infinite scrolling list and redux](./react/src/components/InfiniteScrolling/)
+- [Create an infinite scrolling list and redux](./react/src/components/InfiniteScrolling/) ⭐
 - [Create a folder structure](./react/src/components/FolderStructure/)
+- [Create a modal using portal](./react/src/components/Modal/)
 
 ## Vanilla (HTML, CSS, JavaScript)
 

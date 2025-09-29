@@ -1,5 +1,5 @@
 import ReduxProvider from '@/store/ReduxProvider';
-import SearchBox from '@/components/SearchBox';
+import GreetingModal from '@/components/Modal/GreetingModal';
 import styles from '@/styles/page.module.css';
 import ErrorBoundary from '@/components/ErrorBoundary';
 
@@ -8,7 +8,7 @@ const Home = () => {
     <main className={styles.main}>
       <ErrorBoundary>
         <ReduxProvider>
-          <SearchBox />
+          <GreetingModal />
         </ReduxProvider>
       </ErrorBoundary>
     </main>
