@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <h1>Kanban Board</h1>
+    <section id="form-wrapper">
+      <button id="add-column-btn">Add Column</button>
+      <div role="dialog" id="column-form-modal" class="modal">
+        <div class="form-content">
+          <button class="modal-close-btn">X</button>
+          <form class="form">
+            <label class="form-label" for="column-name">Column Title</label>
+            <input type="text" id="column-name" class="form-input" placeholder="Add column title..." required
+              minlength="3" />
+            <button class="modal-save-btn">Save</button>
+          </form>
+        </div>
+      </div>
+      <div role="dialog" id="card-form-modal" class="modal">
+        <div class="form-content">
+          <button class="modal-close-btn">X</button>
+          <form class="form">
+            <label class="form-label" for="card-name">Card Title</label>
+            <input type="text" id="card-name" class="form-input" placeholder="Add card title..." required
+              minlength="3" />
+            <label class="form-label" for="card-description">Card Description</label>
+            <input type="text" id="card-description" class="form-input" placeholder="Add card description..." required
+              minlength="3" />
+            <button class="modal-save-btn">Save</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="board"></section>
+  </body>
+</html>
