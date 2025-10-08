@@ -64,6 +64,7 @@ _Covers_: **JavaScript · TypeScript · ReactJS · React Native · HTML · CSS**
 - [Create an infinite scrolling list and redux](./react/src/components/InfiniteScrolling/) ⭐
 - [Create a folder structure](./react/src/components/FolderStructure/)
 - [Create a modal using portal](./react/src/components/Modal/)
+- [Implement a useClickOutside custom hook](./react/src/hooks/useClickOutside.ts)
 
 ## Vanilla (HTML, CSS, JavaScript)
 
