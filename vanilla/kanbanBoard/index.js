@@ -1,3 +1,11 @@
+/**
+ * Create a kanban board
+ * Add a button which let's you enter a column in the board
+ * Each column has a button which let's you add items to the column
+ * For both new column and new card, a form modal must appear to choose the title of column/card. For card, we should also have a form field to enter a description for the item card.
+ * Make the item cards draggable so that they can be moved from one column to another
+ */
+
 (function () {
   const board = document.getElementById('board');
   const addColumnBtn = document.getElementById('add-column-btn');
