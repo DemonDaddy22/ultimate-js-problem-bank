@@ -16,6 +16,13 @@ body {
   height: 100vh;
 }
 
+button {
+  padding: 0.75rem 1rem;
+  outline: none;
+  background-color: transparent;
+  border-radius: 0.25rem;
+}
+
 #form-wrapper {
   display: flex;
   align-items: center;
@@ -58,12 +65,13 @@ body {
   position: relative;
   min-height: 20rem;
   padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-close-btn {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  margin-left: auto;
+  padding: 0.25rem;
 }
 
 .column {
@@ -92,7 +100,7 @@ body {
   border-radius: 0.5rem;
   background-color: #FAFAFA;
   padding: 0.5rem;
-  min-height: 15rem;
+  min-height: 10rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;

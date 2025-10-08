@@ -13,6 +13,7 @@
   };
 
   let currentColumnId = '';
+  let currentCardBeingDragged = null;
 
   const generateId = () => {
     return Date.now();
@@ -96,6 +97,7 @@
 
     card.dataset.id = `card-${generateId()}`;
     card.dataset.columnId = currentColumnId;
+    card.setAttribute('draggable', 'true');
     title.textContent = cardTitle;
     description.textContent = cardDescription;
 
@@ -119,12 +121,33 @@
     }
   };
 
+  const handleCardDragStart = (event) => {
+    if (event.target.classList.contains('card') && !currentCardBeingDragged) {
+      currentCardBeingDragged = event.target;
+    }
+  };
+
+  const handleCardDrop = (event) => {
+    const column = event.target.closest('.column');
+    if (column && currentCardBeingDragged && currentCardBeingDragged.dataset.columnId !== column.dataset.id) {
+      const prevColumn = document.querySelector(`[data-id='${currentCardBeingDragged.dataset.columnId}']`);
+      prevColumn.querySelector('.cards').removeChild(currentCardBeingDragged);
+      column.querySelector('.cards').appendChild(currentCardBeingDragged);
+      currentCardBeingDragged.dataset.columnId = column.dataset.id;
+    }
+    currentCardBeingDragged = null;
+  };
+
   addColumnBtn.addEventListener('click', () => handleModalOpen(MODAL_ID.COLUMN));
+  board.addEventListener('click', addCardClickHandler);
   columnModal.addEventListener('click', (event) => {
     modalClickHandler(event, MODAL_ID.COLUMN);
   });
   cardModal.addEventListener('click', (event) => {
     modalClickHandler(event, MODAL_ID.CARD);
   });
-  board.addEventListener('click', addCardClickHandler);
+
+  board.addEventListener('dragstart', handleCardDragStart);
+  board.addEventListener('dragover', (event) => event.preventDefault()); // in order to allow dropping
+  board.addEventListener('drop', handleCardDrop);
 })()
